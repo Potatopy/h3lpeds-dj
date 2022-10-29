@@ -9,6 +9,7 @@ A Simple Music Bot
 
 # Instructions
 First install all the dependanices by running `npm i discord.js dotenv @discordjs/rest @discordjs/voice discord-player ffmpeg-static` in cmd
+
 Next make a file called `.env` and insert
 ```.env
 TOKEN=discord bot token goes here
