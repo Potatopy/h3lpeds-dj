@@ -36,7 +36,6 @@ module.exports = {
                     .setFooter({
                         text: `Page ${page + 1} of ${totalPages}`
                     })
-                    .setThumbnail(currentSong.thumbnail)
             ]
         })
     }
