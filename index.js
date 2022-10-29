@@ -58,6 +58,8 @@ if (LOAD_SLASH) {
 else {
     client.on("ready", () => {
         console.log(`Logged in as ${client.user.tag}`)
+
+        client.user.setPresence({ activities: [{ name: 'made with <3 by zach.#0001' }], status: 'idle' })
     })
     client.on("interactionCreate", (interaction) => {
         async function handleCommand() {

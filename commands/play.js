@@ -52,7 +52,7 @@ module.exports = {
             embed
                 .setDescription(`**[${song.title}] (${song.url})** has been added to the Queue!`)
                 .setThumbnail(song.thumbnail)
-                .setFooter({ text: `Duration: ${song.duration}` })
+                .setFooter({ text: `Duration: ${song.duration} made by zach.#0001` })
 
         } else if (interaction.options.getSubcommand() === "playlist") {
             let url = interaction.options.getString("url")
@@ -68,6 +68,7 @@ module.exports = {
             await queue.addTracks(result.tracks)
             embed
                 .setDescription(`**${result.tracks.length} songs from [${playlist.title}] (${playlist.url})** has been added to the Queue!`)
+                .setFooter({ text: 'Made by zach.#0001' })
         } else if (interaction.options.getSubcommand() === "search") {
             let url = interaction.options.getString("searchterms")
             const result = await client.player.search(url, {
