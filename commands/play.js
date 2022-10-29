@@ -80,7 +80,7 @@ module.exports = {
                 return interaction.editReply("No Results. Make sure the playlist is public!")
 
             const song = result.tracks[0]
-            await queue.addTracks(song)
+            await queue.addTrack(song)
             embed
                 .setDescription(`**[${song.title}] (${song.url})** has been added to the Queue!`)
                 .setThumbnail(song.thumbnail)
