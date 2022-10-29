@@ -9,8 +9,9 @@ A Simple Music Bot
 
 # Instructions
 
-- First install all the dependanices by running `npm i discord.js dotenv @discordjs/rest @discordjs/voice discord-player`
+- First install all the dependanices by running `npm i discord.js dotenv @discordjs/rest @discordjs/voice discord-player` in cmd
 
-- Next make a file called `.env` and insert ```.env
-TOKEN=your discord bot token
+- Next make a file called `.env` and insert
+```.env
+TOKEN=discord bot token goes here
 ```
