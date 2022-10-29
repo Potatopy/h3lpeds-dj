@@ -8,19 +8,19 @@ A Simple Music Bot
 - a basic understanding of javascript + dotenv
 
 # Instructions
-- First install all the dependanices by running `npm i discord.js dotenv @discordjs/rest @discordjs/voice discord-player ffmpeg-static` in cmd
-- Next make a file called `.env` and insert
+First install all the dependanices by running `npm i discord.js dotenv @discordjs/rest @discordjs/voice discord-player ffmpeg-static` in cmd
+Next make a file called `.env` and insert
 ```.env
 TOKEN=discord bot token goes here
 ```
-- After that go to `index.js` and replace 
+After that go to `index.js` and replace 
 ```.js
 const CLIENT_ID = "888582057452785685" // Replace with your Bot ID
 const GUILD_ID = "812765735645347911" // Replace with your Server ID
 ```
 With your own Bot and Server IDs
-- Finally run `node . load` then `node .` to run the bot and You'll see `Logged in as {your discord bot tag}`
+Finally run `node . load` then `node .` to run the bot and You'll see `Logged in as {your discord bot tag}`
 
 # Troubleshooting
-- If you have an intents error, please enable all intents in your discord developer portal. Example:
+If you have an intents error, please enable all intents in your discord developer portal. Example:
 ![example](https://user-images.githubusercontent.com/75576932/198844538-d9f0d390-b051-4a2d-a5e6-7535b0773156.png)
