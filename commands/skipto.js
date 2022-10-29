@@ -11,7 +11,7 @@ module.exports = {
         .setDescription("Skips to a specific track #")
         .addNumberOption((option) => option.setName("tracknumber").setDescription("Track to skiip to").setMinValue(1).setRequired(true)),
     run: async ({client, interaction}) => {
-        const queue = client.player.qetQueue(interaction.guildId)
+        const queue = client.player.getQueue(interaction.guildId)
 
         if (!queue) return await interaction.editReply("There are no songs in the queue")
 
