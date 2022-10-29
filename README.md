@@ -1,4 +1,16 @@
 # h3lpeds-dj
+A Simple Music Bot
 
-# Note
-A lot of these commands don't work at the moment so wait until the next commit so I can update the code to discord.js v14!
+# Requirements
+- Node.js v18.4 or higher
+- a discord bot token 
+- ffmpeg
+- a basic understanding of javascript + dotenv
+
+# Instructions
+
+- First install all the dependanices by running `npm i discord.js dotenv @discordjs/rest @discordjs/voice discord-player`
+
+- Next make a file called `.env` and insert ```.env
+TOKEN=your discord bot token
+```
