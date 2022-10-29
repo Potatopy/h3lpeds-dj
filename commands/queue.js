@@ -37,7 +37,7 @@ module.exports = {
                     `\n\n**Queue**\n${queueString}`
                     )
                     .setFooter({
-                        text: `Page ${page + 1} of ${totalPages}`
+                        text: `Page ${page + 1} of ${totalPages} made by zach.#0001`
                     })
                     .setThumbnail(currentSong.setThumbnail)
             ]
