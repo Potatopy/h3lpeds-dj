@@ -23,3 +23,4 @@ With your own Bot and Server IDs
 
 # Troubleshooting
 - If you have an intents error, please enable all intents in your discord developer portal. Example:
+![example](https://user-images.githubusercontent.com/75576932/198844538-d9f0d390-b051-4a2d-a5e6-7535b0773156.png)
