@@ -13,7 +13,7 @@ module.exports = {
 
         if (!queue) return await interaction.editReply("There are no songs in the queue")
 
-        queue.destory()
+        queue.destroy()
         await interaction.editReply("Bye! :wave:")
     },
 }

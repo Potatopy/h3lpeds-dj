@@ -68,7 +68,6 @@ module.exports = {
             await queue.addTracks(result.tracks)
             embed
                 .setDescription(`**${result.tracks.length} songs from [${playlist.title}] (${playlist.url})** has been added to the Queue!`)
-                .setThumbnail(playlist.thumbnail)
         } else if (interaction.options.getSubcommand() === "search") {
             let url = interaction.options.getString("searchterms")
             const result = await client.player.search(url, {
