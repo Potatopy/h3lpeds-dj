@@ -25,3 +25,9 @@ Finally run `node . load` then `node .` to run the bot and You'll see `Logged in
 # Troubleshooting
 If you have an intents error, please enable all intents in your discord developer portal. Example:
 ![example](https://user-images.githubusercontent.com/75576932/198844538-d9f0d390-b051-4a2d-a5e6-7535b0773156.png)
+
+If you still need help visit my [discord server](https://discord.gg/xYwPfU6JWv)
+Or Ask on StackOverflow ¯\_(ツ)_/¯
+
+# License
+[MIT](https://choosealicense.com/licenses/mit/)
