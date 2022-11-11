@@ -8,7 +8,7 @@ A Simple Music Bot
 - a basic understanding of javascript + dotenv
 
 # Instructions
-First install all the dependanices by running `npm i discord.js dotenv @discordjs/rest @discordjs/voice discord-player ffmpeg-static` in cmd
+First install all the dependanices by running `npm i` in cmd
 
 Next make a file called `.env` and insert
 ```.env
